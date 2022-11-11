@@ -28,7 +28,7 @@ const NavbarLinks = (props) => {
         onClick={onClick}
         _hover={hoverStyle}
         isExternal
-        href="https://mail.google.com/mail/u/2/#inbox/FMfcgzGqRZXPSnxsPprpmKVSLzPFvSfg?projector=1&messagePartId=0.1"
+        href="https://drive.google.com/file/d/1isVXUt9_ltn-ZrwSjGGEb4o32yEVQt22/view"
       >
         Resume
       </Link>
