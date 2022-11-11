@@ -24,14 +24,14 @@ const NavbarLinks = (props) => {
       >
         Projects
       </Link>
-      {/* <Link
+      <Link
         onClick={onClick}
         _hover={hoverStyle}
         isExternal
-        href="https://drive.google.com/file/d/1aJLItUUP6N5ppNxFqh2ZfvN16mGWZ9h3/view?usp=sharing"
+        href="https://mail.google.com/mail/u/2/#inbox/FMfcgzGqRZXPSnxsPprpmKVSLzPFvSfg?projector=1&messagePartId=0.1"
       >
         Resume
-      </Link> */}
+      </Link>
     </Stack>
   );
 };

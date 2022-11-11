@@ -41,7 +41,7 @@ const SocialMedia = (props) => {
       <IconButton
         color={style.color}
         _hover={{ color: style.hoverColor }}
-        href=""
+        href="https://www.instagram.com/_anzar_ali/"
         isExternal
         size="lg"
         variant="link"
