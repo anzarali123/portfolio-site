@@ -24,14 +24,6 @@ const NavbarLinks = (props) => {
       >
         Projects
       </Link>
-      <Link
-        onClick={onClick}
-        _hover={hoverStyle}
-        isExternal
-        href="https://drive.google.com/file/d/1isVXUt9_ltn-ZrwSjGGEb4o32yEVQt22/view"
-      >
-        Resume
-      </Link>
     </Stack>
   );
 };
