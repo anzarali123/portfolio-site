@@ -1,46 +1,48 @@
-import fashionkart from "./fashionkart.png";
-import netflix from "./netflix.png";
+import movieflix from "./movieflix.png";
+import shopEasy from "./shopEasy.png";
 import thunderbolt from "./thunderbolt.png";
-import traveleasy from "./traveleasy.png";
+import cryptoverse from "./cryptoverse.png";
 
 const data = [
   {
-    img: netflix,
-    title: "Netflix Clone",
-    builtWith: "React,TMDB API, Firebase, Node, Mongodb, Express",
-    code: "https://github.com/anzarali123/netflix_clone",
-    live: "https://anzarali-netflix.herokuapp.com/signin",
+    img: movieflix,
+    title: "MovieFlix",
+    builtWith:
+      "ReactJS, NodeJS,ExpressJS, MongoDB, Redux, Material UI,JSON webtoken and TMDB API.",
+    code: "https://github.com/anzarali123/Movie-App",
+    live: "https://anzarali-movieflix.vercel.app/",
     description:
-      "A netflix clone which uses TMDB API to fetch movies and shows.Firebase is used to sign in and signup the user.Implemented a functionality to add and remove movies to your list using node, express and mongodb.",
+      "A web  application which helps people find information about any movie, webseries, celebrities, IMDB rating and user can also watch movie trailer.User can register or login, add movie to their favourite list and write a review about a movie.",
   },
   {
-    img: fashionkart,
-    title: "Fashionkart",
-    builtWith: "React, Firebase , Context API ,Stripe API ,",
-    code: "https://github.com/anzarali123/fashionkart",
-    live: "https://anzarali-fashionkart.netlify.app/",
+    img: shopEasy,
+    title: "shopEasy",
+    builtWith: "ReactJS, Firebase, Stripe, Redux, React Router and Sass.",
+    code: "https://github.com/anzarali123/e-commerce-site",
+    live: "https://shopeasy.onrender.com/",
     description:
-      "A fully fledged e-commerce application with sign in and signup functionality using firebase.Also implemented a stripe API for payments.",
+      "An end to end e-commerce platform built for influencers to sell their merchandise online.Also created an admin dashboard to keep track of the products,orders and the earning.Integrated stripe api to process the payment.",
   },
 
   {
     img: thunderbolt,
     title: "Thunderbolt",
-    builtWith: "React, Chakra UI,Node,Express,Mongodb,Socket.io,Cloudinary",
+    builtWith:
+      "ReactJS, NodeJS, ExpressJS, Chakra UI,Cloudinary and Socket.io.",
     code: "https://github.com/anzarali123/Thunderbolt-v2",
-    live: "https://anzarali-thunderbolt.herokuapp.com/",
+    live: "https://thunderbolt-frontend.onrender.com/",
     description:
-      "A real time chat application where you can create a group chat and can also do a one on one chat.Used Chakra-UI for the frontend, nodejs for the backend and mongodb to store data.",
+      "A web application that helps people to connect and send messages to each other,also having a functionality of creating a group and send messages to multiple users.",
   },
 
   {
-    img: traveleasy,
-    title: "TravelEasy",
-    builtWith: "React, Material-UI, Travel API, Mapbox",
-    code: "https://github.com/anzarali123/TravelEasy",
-    live: "https://anzarali-traveleasy.netlify.app/",
+    img: cryptoverse,
+    title: "Cryptoverse",
+    builtWith: "ReactJS, React Router, Coingecko API and Material UI.",
+    code: "https://github.com/anzarali123/Cryptoverse",
+    live: "https://cryptoverse-anzarali.netlify.app/",
     description:
-      "Built with React and material-ui, this application fetches restaurants all around the world.Also integrated a map using mapbox.Rapid api is used to fetch the restaurants data.",
+      "A cryptocurrency application to track the price of your favourite crypto. Coingecko API used to fetch crypto data and also integrated chartjs library to display performance of a cryptocurrency in a linear chart.",
   },
 ];
 
