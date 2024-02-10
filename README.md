@@ -14,7 +14,7 @@
 ## :rocket: Getting Started
 ```bash
 # clone this repo
-$ git clone https://github.com/rahimratnani/portfolio-site.git
+$ git clone https://github.com/anzarali123/portfolio-site.git
 
 # change directory
 $ cd portfolio-site
